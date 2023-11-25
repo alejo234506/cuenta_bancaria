@@ -1,0 +1,1 @@
+export const  Urlbase="https://bank.jedidiazfagundez.site/api"
