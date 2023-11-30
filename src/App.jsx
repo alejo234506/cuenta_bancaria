@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Login from "./pages/Login";
+
 import Cuenta from "./pages/Cuenta"
 
 const App = () => {

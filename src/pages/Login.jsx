@@ -6,6 +6,7 @@ import { Stack, TextField, Alert } from "@mui/material";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
+
 const Login = () => {
     const [form, setForm] = useState({
         account : "",
@@ -55,10 +56,10 @@ const Login = () => {
   return (
     <>
       <Navbar></Navbar>
-      <Stack display="flex" alignItems="center" marginTop="50px" spacing={5}>
+      <Stack display="flex" alignItems="center" marginTop="12%" spacing={5}  >
       <TextField
           p={3}
-          sx={{ width:"300px" }}
+          sx={{ width:"30%" }}
           name="account"
           label="Email"
           onChange={handleChange}
@@ -66,16 +67,21 @@ const Login = () => {
         
         <TextField
           p={3}
-          sx={{ width: "300px" }}
+          sx={{ width: "30%" }}
           name="password"
           label="contraseña"
           onChange={handleChange}
           type="password"
         ></TextField>
-        <LoadingButton
+        <LoadingButton  sx={{background:"black"  ,height:"30%", width:"20%" ,
+         '&:hover':{
+          backgroundColor: 'yellow',
+          color:"black"
+       }}} 
             loading={loading}
             onClick={handleSubmit}
             variant="contained"
+
         >
             SUBMIT
         </LoadingButton>

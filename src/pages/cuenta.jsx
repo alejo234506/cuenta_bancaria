@@ -1,10 +1,15 @@
+import React from 'react'
 
-const Cuenta = () => {
+function cuenta() {
   return (
-    <div>
-        hola
-    </div>
+    <>
+      
+       
+      hola
+       
+        
+    </>
   )
 }
 
-export default Cuenta
+export default cuenta
