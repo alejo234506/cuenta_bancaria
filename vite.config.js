@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// base: la app se publica en https://alejo234506.github.io/cuenta_bancaria/
 export default defineConfig({
+  base: '/cuenta_bancaria/',
   plugins: [react()],
-})
+});

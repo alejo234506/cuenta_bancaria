@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Banco Tucán">
+  <rect width="64" height="64" rx="16" fill="#0f4c5c"/>
+  <circle cx="24" cy="30" r="13" fill="#ffffff"/>
+  <circle cx="22" cy="27" r="3.2" fill="#0f4c5c"/>
+  <path d="M33 22c9-3 18-1 23 6-6 2-14 4-23 4z" fill="#f4a261"/>
+  <path d="M33 32c8 0 15-1 23-4-4 7-12 10-23 9z" fill="#e76f51"/>
+  <path d="M14 44c6 6 18 7 26 2" stroke="#2a9d8f" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>
